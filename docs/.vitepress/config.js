@@ -1,50 +1,50 @@
 export default {
   title: "William's Blog",
   description: "Keep Life Moving",
-  base: '/blog/',
-  // 没生效？？
-  // head: [["link", { rel: "icon", href: "/favicon.ico" }]],
-  // themeConfig: {
-  //   siteTitle: "William",
-  //   logo: "/logo.svg",
-  //   // 导航
-  //   nav: [
-  //     { text: "Blog", link: "/articles/js/数据类型" },
-  //     { text: "Utils", link: "/guide/utils" },
-  //     // { text: "gitee", link: "https://gitee.com/geeksdidi" },
-  //     {
-  //       text: "Interview",
-  //       items: [
-  //         {
-  //           items: [{ text: "Item A", link: "/item-1" }],
-  //         },
-  //         {
-  //           items: [
-  //             { text: "Item B", link: "/item-2" },
-  //             { text: "Item C", link: "/item-3" },
-  //           ],
-  //         },
-  //       ],
-  //     },
-  //   ],
-  //   // 社交链接
-  //   socialLinks: [{ icon: "github", link: "https://github.com/vivi0119" }],
-  //   sidebar: {
-  //     "/articles/js/": [
-  //       {
-  //         text: "JavaScript",
-  //         items: [
-  //           {
-  //             text: "js-basic",
-  //             link: "/js/数据类型",
-  //           },
-  //           {
-  //             text: "js-core",
-  //             link: "/js/数据类型",
-  //           },
-  //         ],
-  //       },
-  //     ],
-    // },
-  // },
+  base: "/blog/",
+  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+  socialLinks: [{ icon: "github", link: "https://github.com/william0119" }],
+  themeConfig: {
+    siteTitle: "William",
+    logo: "/logo.svg",
+    nav: [
+      {
+        text: "Web-FE",
+        items: [
+          {
+            items: [
+              { text: "js", link: "/web-fe/test" },
+              { text: "css", link: "/web-fe/test" },
+              { text: "html", link: "/web-fe/test" },
+            ],
+          },
+          {
+            items: [{ text: "interview", link: "/web-fe/test" }],
+          },
+        ],
+      },
+      { text: "Workspace", link: "/workspace/test" },
+      { text: "Utils", link: "/utils/test" },
+      { text: "Memoirs", link: "/memoirs/序言" },
+    ],
+    sidebar: {
+      "/memoirs/": [
+        {
+          text: "序言测试1",
+          items: [
+            { text: "序言", link: "/memoirs/序言" },
+            // { text: "序言", link: "/memoirs/序言" },
+          ],
+        },
+        {
+          text: "序言测试2",
+          items: [{ text: "序言2", link: "/memoirs/序言 copy" }],
+        },
+      ],
+    },
+    footer: {
+      message: "策马同游，烟雨如梦",
+      copyright: "William Wu",
+    },
+  },
 };
