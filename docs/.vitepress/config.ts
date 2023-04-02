@@ -3,7 +3,11 @@ export default {
   description: "Keep Life Moving",
   base: "/blog/",
   lastUpdated: true,
-  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+  head: [
+    ['link', { rel: 'apple-touch-icon', href: '/favicon.ico' }],
+    ['link', { rel: 'mask-icon', href: '/favicon.ico', color: '#3eaf7c' }],
+    ['meta', { name: 'msapplication-TileImage', content: '/favicon.ico' }],
+  ],
   themeConfig: {
     siteTitle: "William",
     logo: "/logo.svg",
