@@ -4,12 +4,12 @@ export default {
   base: "/blog/",
   lastUpdated: true,
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
-  socialLinks: [{ icon: "github", link: "https://github.com/william0119" }],
   themeConfig: {
     siteTitle: "William",
     logo: "/logo.svg",
     author: 'william',
     lastUpdatedText: 'Updated Date',
+    socialLinks: [{ icon: "github", link: "https://github.com/william0119" }],
     nav: [
       {
         text: "Web-FE",

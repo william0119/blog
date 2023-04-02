@@ -19,10 +19,13 @@ features:
   - icon: ⚡️
     title: Web front-end
     details: 工作与学习的相关记录...
+    link: /workspace/test
   - icon: 🛠️
     title: Utils
     details: 日常积累的一些工具软件...
+    link: /utils/test
   - icon: 🖖
     title: Memoirs
     details: 浮生若梦，为欢几何...
+    link: /memoirs/序言
 ---
