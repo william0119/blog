@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as t,N as r}from"./chunks/framework.294d0221.js";const p=JSON.parse('{"title":"序言","description":"","frontmatter":{},"headers":[],"relativePath":"memoirs/序言.md","lastUpdated":1680429203000}'),o={name:"memoirs/序言.md"},s=r("",4),i=[s];function n(_,c,d,h,l,m){return t(),e("div",null,i)}const f=a(o,[["render",n]]);export{p as __pageData,f as default};
