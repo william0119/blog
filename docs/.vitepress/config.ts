@@ -2,11 +2,14 @@ export default {
   title: "William's Blog",
   description: "Keep Life Moving",
   base: "/blog/",
+  lastUpdated: true,
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   socialLinks: [{ icon: "github", link: "https://github.com/william0119" }],
   themeConfig: {
     siteTitle: "William",
     logo: "/logo.svg",
+    author: 'william',
+    lastUpdatedText: 'Updated Date',
     nav: [
       {
         text: "Web-FE",
@@ -44,7 +47,7 @@ export default {
     },
     footer: {
       message: "策马同游，烟雨如梦",
-      copyright: "William Wu",
+      copyright: "Copyright © 2023-present William Wu",
     },
   },
 };

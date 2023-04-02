@@ -9,7 +9,7 @@ hero:
     alt: William
   actions:
     - theme: brand
-      text: Come on
+      text: Get Started
       link: /web-fe/test
     - theme: alt
       text: View on Github
