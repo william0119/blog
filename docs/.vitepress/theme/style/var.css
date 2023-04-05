@@ -13,7 +13,7 @@
     #79f1a4 10%,
     #0e5cad 100%
   );
-  --vp-home-hero-image-filter: blur(100px);
+  --vp-home-hero-image-filter: blur(80px);
 
   /* 首页 started button 样式 */
   --vp-button-brand-border: #04afae;
