@@ -22,7 +22,7 @@ features:
     link: /workspace/test
   - icon: 🛠️
     title: Utils
-    details: 日常积累的一些工具软件...
+    details: 一些工具软件...
     link: /utils/test
   - icon: 🖖
     title: Memoirs
