@@ -39,7 +39,7 @@ jobs:
           # GitHub 仓库地址
           source-repo: git@github.com:william0119/blog.git
           # Gitee 仓库地址
-          destination-repo: git@gitee.com:william0119/blog.git
+          destination-repo: git@gitee.com:vivi0119/blog.git
 
       - name: Build Gitee Pages
         uses: yanglbme/gitee-pages-action@main
